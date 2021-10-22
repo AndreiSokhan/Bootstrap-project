@@ -1,0 +1,17 @@
+.title {
+   color: #3D4F9F;
+   margin-bottom: 68px;
+
+   &__text {
+      font-family: "RobotoMedium", sans-serif;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+   }
+
+   &__slogan {
+      font-family: "QuicksandMedium", sans-serif;
+      font-size: 24px;
+   }
+}
