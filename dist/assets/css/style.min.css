@@ -362,6 +362,11 @@ template {
     font-family: "QuicksandMedium", sans-serif;
     font-size: 24px; }
 
+.header__container {
+  padding: 0 117px;
+  width: 100%;
+  max-width: 1206px; }
+
 .help {
   padding: 175px 0; }
   .help__card {
