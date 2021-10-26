@@ -13,35 +13,56 @@
 <body>
    <!--header block-->
    <header class="header">
-      <div class="container">
-         <div class="header__menu menu">
-            <div class="menu__list">
-               <div class="menu__item"><a href="#" class="menu__link">Home</a></div>
-               <div class="menu__item"><a href="#" class="menu__link">Blog</a></div>
-               <div class="menu__item"><a href="#" class="menu__link">Features</a></div>
-               <div class="menu__item"><a href="#" class="menu__link">Pricing</a></div>
-               <div class="menu__item"><a href="#" class="menu__link">Documentation</a></div>
-            </div>
-         </div>
+      <a href="" class="heeader__logo-link">
+         <div class="header__logo"></div>
+      </a>
+      <div class="header__content">
+         <nav class="header__menu menu">
+            <ul class="menu__list">
+               <li class="menu__item"><a class="menu__link" href="#" class="menu__link">Home</a></li>
+               <li class="menu__item"><a class="menu__link" href="#" class="menu__link">Blog</a></li>
+               <li class="menu__item"><a class="menu__link" href="#" class="menu__link">Features</a></li>
+               <li class="menu__item"><a class="menu__link" href="#" class="menu__link">Pricing</a></li>
+               <li class="menu__item"><a class="menu__link" href="#" class="menu__link">Documentation</a></li>
+            </ul>
+         </nav>
          <div class="header__social social">
-            <div class="social__list">
-               <div class="social__item"><a href="#" class="social__link"><img src="./assets/images/f.svg"
-                        alt="Facebook" class="social__icon"></a></div>
-               <div class="social__item"><a href="#" class="social__link"><img src="./assets/images/t.svg"
-                        alt="telegram" class="social__icon"></a></div>
-               <div class="social__item"><a href="#" class="social__link"><img src="./assets/images/twit.svg"
-                        alt="twitter" class="social__icon"></a></div>
-               <div class="social__item"><a href="#" class="social__link"><img src="./assets/images/m.svg"
-                        alt="M-social" class="social__icon"></a></div>
-            </div>
+            <ul class="social__list">
+               <li class="social__item">
+                  <a class="social__link" href="#">
+                     <svg class="social__icon">
+                        <use xlink:href="./assets/images/f.svg"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="social__item"><a class="social__link" href="#">
+                     <svg class="social__icon">
+                        <use xlink:href="./assets/images/t.svg"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="social__item"><a class="social__link" href="#">
+                     <svg class="social__icon">
+                        <use xlink:href="./assets/images/twit.svg"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="social__item"><a class="social__link" href="#">
+                     <svg class="social__icon">
+                        <use xlink:href="./assets/images/m.svg"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
          </div>
-         <a href="#" class="header__btn">Get started</a>
+         <button class="header__btn" type="button">Get started</button>
+      </div>
       </div>
    </header>
 
 
 
-   
+
    <!--plan block-->
    <section class="plan">
 
@@ -275,4 +296,5 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
    </script>
 </body>
+
 </html>

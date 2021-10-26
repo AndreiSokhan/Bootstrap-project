@@ -362,10 +362,10 @@ template {
     font-family: "QuicksandMedium", sans-serif;
     font-size: 24px; }
 
-.header__container {
-  padding: 0 117px;
-  width: 100%;
-  max-width: 1206px; }
+.social__icon {
+  width: 9px;
+  height: 17px;
+  fill: #B6BAC7; }
 
 .help {
   padding: 175px 0; }
